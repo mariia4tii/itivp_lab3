@@ -1,0 +1,36 @@
+.moving-text-container {
+    overflow: hidden;
+    border-top: 1px solid #0E0A00;
+    border-bottom: 1px solid #0E0A00;
+    padding: 0.64rem 0;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .moving-track {
+    display: flex;
+    width: fit-content;
+    animation: scroll-left 20s linear infinite;
+  }
+  
+  .moving-content {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    padding-right: 2rem;
+  }
+  
+  .moving-logo {
+    width: 1.714rem;
+    margin: 0 4.28rem;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

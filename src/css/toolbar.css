@@ -1,0 +1,60 @@
+/* Обертка для панели */
+.toolbar-container {
+    position: fixed;
+    background-color:transparent;
+
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  /* Кнопка настроек */
+  .settings-icon {
+    background-color: #ff6600;
+    color: hsl(44, 100%, 98%);
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+  }
+  
+  .settings-icon:hover {
+    background-color: #e65c00;
+  }
+  
+  /* Панель инструментов */
+  .toolbar {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: hsl(44, 100%, 98%);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+  }
+  
+  .toolbar button {
+    padding: 8px 12px;
+    background-color: #ff6600;
+    color: #FFFCF6;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .toolbar button:hover {
+    background-color: #e65c00;
+  }
+  
+  .toolbar label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+  }
+  

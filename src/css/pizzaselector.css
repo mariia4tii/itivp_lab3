@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* затемнение фона */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    font-family: Roboto;
+    font-style: normal;
+    background: #FFFCF6;
+    padding: 20px 30px;
+    border-radius: 16px;
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+  }
+  
+  .pizza-image {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 15px;
+    display: block;
+  }
+  
+  .add-btn {
+    margin-top: 15px;
+    background-color: #ff4d00;
+    color: #FFFCF6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .modal-content {
+    font-family: Roboto;
+    font-style: normal;
+    background: #FFFCF6;
+    padding: 20px;
+    border-radius: 16px;
+    position: relative;
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .textp{
+    font-family: Roboto;
+    font-style: normal;
+    color: #222;
+    text-align: center;
+    font-size: 1.375rem;
+    white-space: pre-line;
+    text-transform: uppercase;
+  }
+  
